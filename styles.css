@@ -1,5 +1,5 @@
 @import "https://unpkg.com/open-props";
-@import (panchang.css);
+@import url(panchang.css);
 
 /* diagnostic styling */
 /* 
@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: 'Panchang-Variable';
 }
 
 /* scene */
@@ -67,8 +68,4 @@ body {
 section img {
   width: 100%;
   object-fit: cover;
-}
-
-h1 {
-  font-family: 'Panchang', sans-serif;
 }
