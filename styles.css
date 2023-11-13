@@ -1,3 +1,6 @@
+@import "https://unpkg.com/open-props";
+@import url(https://www.fontshare.com/fonts/panchang);
+
 /* diagnostic styling */
 /* 
 {
@@ -64,4 +67,8 @@ body {
 section img {
   width: 100%;
   object-fit: cover;
+}
+
+h1 {
+  font-family: 'Panchang', sans-serif;
 }
