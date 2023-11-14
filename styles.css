@@ -44,6 +44,7 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 
   /* hide back face   */
   backface-visibility: hidden;
@@ -67,11 +68,20 @@ body {
 }
 
 section img {
-  width: 100%;
+  display: block;
+  width: 90%;
+  height: 80%;
   object-fit: cover;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
   text-align: center;
   color: white;
+}
+
+p {
+  text-align: center;
 }
