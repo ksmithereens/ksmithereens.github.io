@@ -15,7 +15,6 @@ body {
   height: 100vh;
   font-family: 'Panchang-Variable';
   color: white;
-  background-image: ;
 }
 
 /* scene */
@@ -97,4 +96,5 @@ top:0;
 left:0;
 min-width: 100%;
 min-height: 100%;
+background-size: cover;
 }
