@@ -15,6 +15,7 @@ body {
   height: 100vh;
   font-family: 'Panchang-Variable';
   color: white;
+  background-image: ;
 }
 
 /* scene */
@@ -86,4 +87,14 @@ h1 {
 
 p {
   text-align: center;
+}
+
+.stepup {
+background-image: url(https://youtu.be/ScU8vW4pF80?si=oCOTuWsjMLJqkMyC);
+position: absolute;
+z-index: -1;
+top:0;
+left:0;
+min-width: 100%;
+min-height: 100%;
 }
