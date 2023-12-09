@@ -44,18 +44,19 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  border-radius: 20px;
+  /* border-radius: 20px; */
+  border-radius:
 
   /* hide back face   */
   backface-visibility: hidden;
 }
 
 .front {
-  background: var(--green-10);
+  background: var(--orange-7);
 }
 
 .back {
-  background: var(--green-10);
+  background: var(--orange-7);
   /* flip it default   */
   transform: rotateY(180deg);
 }
@@ -97,4 +98,18 @@ left:0;
 min-width: 100%;
 min-height: 100%;
 background-size: cover;
+filter: grayscale(1) brightness(.8)
+}
+
+.pointer {
+position: absolute;
+transform: rotate(90deg);
+width: 400px;
+height: 300px;
+bottom: -33px;
+left: 600px;
+}
+
+span {
+  color:black;
 }
