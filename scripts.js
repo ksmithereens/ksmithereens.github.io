@@ -17,6 +17,8 @@ tl1.from("#myName", {
     delay: 1
 })
 .from("#selfie", {
-    opacity: 0
+    opacity: 0,
+    ease: 'elastic',
+    rotate: 360
 });
 
